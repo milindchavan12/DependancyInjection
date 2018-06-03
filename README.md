@@ -18,3 +18,5 @@ Patterns used to implement Dependancy Injection :
 - Ambient context
 - Service Locator
 
+Avaiable DI containers :
+Unity, Ninject, Castle Windsor, Autofac, StructureMap, Spring.Net
