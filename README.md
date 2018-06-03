@@ -11,4 +11,10 @@ Advantages of Dependancy Injection :
 - Parallel Development
 - Maintainability 
 
+Patterns used to implement Dependancy Injection :
+- Custructor Injection
+- Property Injection
+- Method Injection
+- Ambient context
+- Service Locator
 
