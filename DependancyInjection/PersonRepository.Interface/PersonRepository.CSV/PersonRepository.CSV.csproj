@@ -6,6 +6,5 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PersonRepository.Interface.csproj" />
-    <ProjectReference Include="..\..\SharedObjects\SharedObjects.csproj" />
   </ItemGroup>
 </Project>

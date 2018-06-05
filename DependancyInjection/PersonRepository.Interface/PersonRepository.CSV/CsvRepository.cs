@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using PersonRepository.Interface;
 using SharedObjects;
 
-namespace PersonRepository.Service
+namespace PersonRepository.CSV
 {
-    public class ServiceRepository : IPersonRepository
+    public class CsvRepository : IPersonRepository
     {
         public void AddPerson(Person newPerson)
         {
@@ -16,7 +17,7 @@ namespace PersonRepository.Service
             throw new NotImplementedException();
         }
 
-        public IEquatable<Person> GetPeople()
+        public IEnumerable<Person> GetPeople()
         {
             throw new NotImplementedException();
         }
@@ -26,7 +27,7 @@ namespace PersonRepository.Service
             throw new NotImplementedException();
         }
 
-        public void UpdatePeople(IEquatable<Person> updatedPeople)
+        public void UpdatePeople(IEnumerable<Person> updatedPeople)
         {
             throw new NotImplementedException();
         }

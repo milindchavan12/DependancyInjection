@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using SharedObjects;
 
 namespace PersonRepository.Interface
 {
     public interface IPersonRepository
     {
-        IEquatable<Person> GetPeople();
+        IEnumerable<Person> GetPeople();
 
         Person GetPerson(string lastName);
 
@@ -15,6 +16,6 @@ namespace PersonRepository.Interface
 
         void DeletePerson(string lastName);
 
-        void UpdatePeople(IEquatable<Person> updatedPeople);
+        void UpdatePeople(IEnumerable<Person> updatedPeople);
     }
 }
