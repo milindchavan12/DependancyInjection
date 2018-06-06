@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharedObjects\SharedObjects.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="PersonRepository.CSV\bin\Debug\netcoreapp2.0\PersonRepository.CSV.deps.json" />
+    <None Remove="PersonRepository.CSV\obj\PersonRepository.CSV.csproj.nuget.g.props" />
+    <None Remove="PersonRepository.CSV\obj\PersonRepository.CSV.csproj.nuget.g.targets" />
+    <None Remove="PersonRepository.CSV\obj\project.assets.json" />
+    <None Remove="PersonRepository.CSV\obj\PersonRepository.CSV.csproj.nuget.cache" />
+    <None Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.csprojResolveAssemblyReference.cache" />
+    <None Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.csproj.CoreCompileInputs.cache" />
+    <None Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.AssemblyInfoInputs.cache" />
+    <None Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.dll" />
+    <None Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.pdb" />
+    <None Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.csproj.CopyComplete" />
+    <None Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.csproj.FileListAbsolute.txt" />
+    <None Remove="PersonRepository.Service\bin\Debug\netcoreapp2.0\PersonRepository.Interface.dll" />
+    <None Remove="PersonRepository.Service\bin\Debug\netcoreapp2.0\PersonRepository.Interface.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="PersonRepository.CSV\obj\Debug\netcoreapp2.0\PersonRepository.CSV.AssemblyInfo.cs" />
+    <Compile Remove="PersonRepository.CSV\CSVRepository.cs" />
+    <Compile Remove="PersonRepository.SQL\Class1.cs" />
+  </ItemGroup>
+</Project>
