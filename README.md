@@ -1,17 +1,17 @@
-# Dependancy Injection
+# Dependency Injection
 
-"Dependancy Injection is Software Design Pattern that allows removoal of hard coded dependancies and makes it possible to change them, whether at Run-time or Compile-time." - Wikipedia.
+"Dependency Injection is Software Design Pattern that allows removoal of hard coded dependancies and makes it possible to change them, whether at Run-time or Compile-time." - Wikipedia.
 
-"Dependancy Injection is set of Software Design Principles and Patterns that enables us to develope loosely couple code" - Mark Seemann.
+"Dependency Injection is set of Software Design Principles and Patterns that enables us to develope loosely couple code" - Mark Seemann.
 
-Advantages of Dependancy Injection :
+Advantages of Dependency Injection :
 - Extensibility
 - Testability
 - Late Binding
 - Parallel Development
 - Maintainability 
 
-Patterns used to implement Dependancy Injection :
+Patterns used to implement Dependency Injection :
 - Custructor Injection
 - Property Injection
 - Method Injection
@@ -19,7 +19,7 @@ Patterns used to implement Dependancy Injection :
 - Service Locator
 
 DI containers :
-Dependancy Injection Containers are also called as IoC or Inversion of Control containers.
+Dependency Injection Containers are also called as IoC or Inversion of Control containers.
 
 Available DI containers are:
 - Unity : From Microsoft Patterns and Practices
