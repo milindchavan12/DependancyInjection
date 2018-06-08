@@ -18,5 +18,12 @@ Patterns used to implement Dependancy Injection :
 - Ambient context
 - Service Locator
 
-Available DI containers :
-Unity, Ninject, Castle Windsor, Autofac, StructureMap, Spring.Net
+DI containers :
+Dependancy Injection Containers are also called as IoC or Inversion of Control containers.
+
+Available DI containers are:
+- Unity : From Microsoft Patterns and Practices
+- Spring.Net : .Net port of Java Spring Framework
+- Castle Windsor : From Castle Project
+- Ninject, Autofac, StructureMap, 
+
