@@ -2,7 +2,7 @@
 
 High-Level modules should not depend upon low-level modules. Both should depend upon abstractions. Abstractions should not depend upon details. Details should depend upon abstractions.
 
-
+![alt text](https://www.codeproject.com/script/Membership/Uploads/3723168/DIP3.jpg)
 
 # Dependency Injection
 
