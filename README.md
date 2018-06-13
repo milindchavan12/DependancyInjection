@@ -4,6 +4,10 @@ High-Level modules should not depend upon low-level modules. Both should depend 
 
 ![alt text](https://www.codeproject.com/script/Membership/Uploads/3723168/DIP3.jpg)
 
+# High Level view for DIP and IOC
+
+![alt text] https://pbs.twimg.com/media/DfmJ5kLWsAAUhJT.jpg:large
+
 # Dependency Injection
 
 "Dependency Injection is Software Design Pattern that allows removoal of hard coded dependancies and makes it possible to change them, whether at Run-time or Compile-time." - Wikipedia.
