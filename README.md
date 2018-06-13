@@ -6,7 +6,7 @@ High-Level modules should not depend upon low-level modules. Both should depend 
 
 # High Level view for DIP and IOC
 
-![alt text] https://pbs.twimg.com/media/DfmJ5kLWsAAUhJT.jpg
+![alt text](https://pbs.twimg.com/media/DfmJ5kLWsAAUhJT.jpg)
 
 # Dependency Injection
 
