@@ -23,7 +23,7 @@ Advantages of Dependency Injection :
 
 Patterns used to implement Dependency Injection :
 - Custructor Injection
-- Property Injection
+- Property/Setter Injection
 - Method Injection
 - Ambient context
 - Service Locator
