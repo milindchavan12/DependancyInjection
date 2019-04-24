@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using People.Service.Models;
 using SharedObjects;
 
 namespace People.Service.Controllers
@@ -11,11 +12,18 @@ namespace People.Service.Controllers
     [ApiController]
     public class PeopleController : ControllerBase
     {
+        private readonly IPeopleProvider _provider;
+
+        public PeopleController(IPeopleProvider provider)
+        {
+            _provider = provider;
+        }
+
         // GET api/people
         [HttpGet]
         public ActionResult<IEnumerable<Person>> Get()
         {
-            return provider.GetPeople();
+            return _provider.GetPeople();
         }
 
         // GET api/values/5
