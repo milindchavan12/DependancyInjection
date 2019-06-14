@@ -1,0 +1,27 @@
+﻿@model IEnumerable<SharedObjects.Person>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">People Viewer</h1>
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th>Employee Id </th>
+            <th>First Name </th>
+            <th>Last Name </th>
+            <th>StartDate</th>
+            <th>Rating</th>
+        </tr>
+        @foreach (var person in Model)
+        {
+            <tr>
+                <td>@person.Id</td>
+                <td>@person.GivenName</td>
+                <td>@person.FamilyName</td>
+                <td>@person.StartDate</td>
+                <td>@person.Rating</td>
+            </tr>
+        }
+    </table>
+</div>
