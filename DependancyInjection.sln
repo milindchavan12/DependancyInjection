@@ -1,31 +1,32 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.Interface", "PersonRepository.Interface\PersonRepository.Interface.csproj", "{CBA83617-72DA-4792-879A-E5F0929CE77B}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.Interface", "PersonRepository.Interface\PersonRepository.Interface.csproj", "{CBA83617-72DA-4792-879A-E5F0929CE77B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{81F27800-3A0B-43EB-99CD-73A396515B4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5228DD55-6EAB-4507-9A45-4E229C033FA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedObjects", "SharedObjects\SharedObjects.csproj", "{D376C374-E7AF-43B5-9186-0697B299A9BF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{0B814529-1A1A-4330-B4B3-5BE52C5E768B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.CSV", "PersonRepository.Interface\PersonRepository.CSV\PersonRepository.CSV.csproj", "{C3B4E184-AA97-4E6D-AC4B-A97E883A1843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedObjects", "SharedObjects\SharedObjects.csproj", "{D376C374-E7AF-43B5-9186-0697B299A9BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{4F197909-E195-4029-8BEE-E4CAAC847463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer.Tests", "PeopleViewer.Tests\PeopleViewer.Tests.csproj", "{A99DBF98-8F63-430A-A8F5-E143D65DC672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleViewer.Tests", "PeopleViewer.Tests\PeopleViewer.Tests.csproj", "{A99DBF98-8F63-430A-A8F5-E143D65DC672}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStorage", "DataStorage", "{C0297E7F-E278-41A6-8BBE-0D9CF76B92F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People.Service", "People.Service\People.Service.csproj", "{8F25D64F-C746-4E43-8F5A-3E6CA50492EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "People.Service", "People.Service\People.Service.csproj", "{8F25D64F-C746-4E43-8F5A-3E6CA50492EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{5DEA1ADB-F54A-4C94-84C4-98688E59F902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDataReader.Service", "PersonDataReader.Service\PersonDataReader.Service.csproj", "{9552E385-CA30-4A72-9C56-4F7360448479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDataReader.Service", "PersonDataReader.Service\PersonDataReader.Service.csproj", "{9552E385-CA30-4A72-9C56-4F7360448479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDataReader.CSV", "PersonDataReader.CSV\PersonDataReader.CSV.csproj", "{42B157ED-99FD-41F2-9BF1-47385C9FCFCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDataReader.CSV", "PersonDataReader.CSV\PersonDataReader.CSV.csproj", "{42B157ED-99FD-41F2-9BF1-47385C9FCFCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{67A65CEB-EA74-4FA3-B46F-5207FC518F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer.Presentation", "PeopleViewer.Presentation\PeopleViewer.Presentation.csproj", "{70245C53-0690-49D9-AD8E-AC7A702D2CEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +42,6 @@ Global
 		{D376C374-E7AF-43B5-9186-0697B299A9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D376C374-E7AF-43B5-9186-0697B299A9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D376C374-E7AF-43B5-9186-0697B299A9BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3B4E184-AA97-4E6D-AC4B-A97E883A1843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3B4E184-AA97-4E6D-AC4B-A97E883A1843}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3B4E184-AA97-4E6D-AC4B-A97E883A1843}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3B4E184-AA97-4E6D-AC4B-A97E883A1843}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A99DBF98-8F63-430A-A8F5-E143D65DC672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A99DBF98-8F63-430A-A8F5-E143D65DC672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A99DBF98-8F63-430A-A8F5-E143D65DC672}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,14 +58,24 @@ Global
 		{42B157ED-99FD-41F2-9BF1-47385C9FCFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42B157ED-99FD-41F2-9BF1-47385C9FCFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42B157ED-99FD-41F2-9BF1-47385C9FCFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70245C53-0690-49D9-AD8E-AC7A702D2CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70245C53-0690-49D9-AD8E-AC7A702D2CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70245C53-0690-49D9-AD8E-AC7A702D2CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70245C53-0690-49D9-AD8E-AC7A702D2CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CBA83617-72DA-4792-879A-E5F0929CE77B} = {81F27800-3A0B-43EB-99CD-73A396515B4A}
 		{D376C374-E7AF-43B5-9186-0697B299A9BF} = {5228DD55-6EAB-4507-9A45-4E229C033FA9}
-		{C3B4E184-AA97-4E6D-AC4B-A97E883A1843} = {81F27800-3A0B-43EB-99CD-73A396515B4A}
 		{A99DBF98-8F63-430A-A8F5-E143D65DC672} = {4F197909-E195-4029-8BEE-E4CAAC847463}
 		{8F25D64F-C746-4E43-8F5A-3E6CA50492EB} = {C0297E7F-E278-41A6-8BBE-0D9CF76B92F6}
 		{9552E385-CA30-4A72-9C56-4F7360448479} = {5DEA1ADB-F54A-4C94-84C4-98688E59F902}
 		{42B157ED-99FD-41F2-9BF1-47385C9FCFCF} = {5DEA1ADB-F54A-4C94-84C4-98688E59F902}
+		{70245C53-0690-49D9-AD8E-AC7A702D2CEC} = {67A65CEB-EA74-4FA3-B46F-5207FC518F60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {075E3F21-9250-4E87-87C6-2C7B28488880}
 	EndGlobalSection
 EndGlobal

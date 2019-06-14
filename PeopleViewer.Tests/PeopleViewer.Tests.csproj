@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PersonRepository.Interface\PersonRepository.Interface.csproj" />
-    <ProjectReference Include="..\PersonViewModels\PersonViewModels.csproj" />
     <ProjectReference Include="..\SharedObjects\SharedObjects.csproj" />
   </ItemGroup>
 </Project>

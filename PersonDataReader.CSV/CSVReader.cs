@@ -1,4 +1,4 @@
-﻿using PeopleViewer.Common;
+﻿using SharedObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
