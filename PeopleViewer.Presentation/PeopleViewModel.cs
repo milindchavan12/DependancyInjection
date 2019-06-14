@@ -8,11 +8,11 @@ namespace PeopleViewer.Presentation
 {
     public class PeopleViewModel
     {
-        protected ServiceReader DataReader;
+        protected IPersonReader DataReader;
 
-        public PeopleViewModel()
+        public PeopleViewModel(IPersonReader dataReader)
         {
-            DataReader = new ServiceReader();
+            DataReader = dataReader;
         }
 
         public IEnumerable<Person> GetPeople()

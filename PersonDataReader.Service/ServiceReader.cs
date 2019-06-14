@@ -9,7 +9,7 @@ namespace PersonDataReader.Service
     public class ServiceReader : IPersonReader
     {
         WebClient webClient = new WebClient();
-        string baseUrl = "http://localhost:5001/api/people";
+        string baseUrl = "https://localhost:44390/api/people";
 
         public IEnumerable<Person> GetPeople()
         {

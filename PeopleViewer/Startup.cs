@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PersonDataReader.Service;
+using SharedObjects;
 
 namespace PeopleViewer
 {
@@ -32,6 +34,7 @@ namespace PeopleViewer
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddTransient<IPersonReader, ServiceReader>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

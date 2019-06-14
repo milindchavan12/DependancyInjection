@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PeopleViewer.Models;
 using PeopleViewer.Presentation;
+using SharedObjects;
 
 namespace PeopleViewer.Controllers
 {
@@ -13,9 +14,9 @@ namespace PeopleViewer.Controllers
     {
         PeopleViewModel vieweModel;
 
-        public HomeController()
+        public HomeController(IPersonReader personReader)
         {
-            vieweModel = new PeopleViewModel();
+            vieweModel = new PeopleViewModel(personReader);
         }
 
         public IActionResult Index()
