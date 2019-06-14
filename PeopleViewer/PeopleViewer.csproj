@@ -14,7 +14,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PeopleViewer.Presentation\PeopleViewer.Presentation.csproj" />
+    <ProjectReference Include="..\PersonDataReader.CSV\PersonDataReader.CSV.csproj" />
+    <ProjectReference Include="..\PersonDataReader.Service\PersonDataReader.Service.csproj" />
     <ProjectReference Include="..\SharedObjects\SharedObjects.csproj" />
   </ItemGroup>
+
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy &quot;$(SolutionDir)Files\*.*&quot; &quot;$(TargetDir)&quot; /Y" />
+  </Target>
 
 </Project>

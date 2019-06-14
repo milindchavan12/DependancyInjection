@@ -11,7 +11,7 @@ namespace PersonDataReader.CSV
 
         public CSVReader()
         {
-            string filePath = AppDomain.CurrentDomain.BaseDirectory + "People.txt";
+            string filePath = AppDomain.CurrentDomain.BaseDirectory + "people.csv";
             FileLoader = new CSVFileLoader(filePath);
         }
 
@@ -57,8 +57,7 @@ namespace PersonDataReader.CSV
                 GivenName = elements[1],
                 FamilyName = elements[2],
                 StartDate = DateTime.Parse(elements[3]),
-                Rating = int.Parse(elements[4]),
-                FormatString = elements[5],
+                Rating = int.Parse(elements[4])
             };
             return person;
         }
